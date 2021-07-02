@@ -11,5 +11,16 @@
   },
   "issueSettings": {
     "minSeverityLevel": "LOW"
+  },
+  "remediateSettings": {
+    "enableRenovate": true,
+    {
+    "packageRules": [
+      {
+        "matchDatasources": ["npm", "docker"],
+        "matchPackagePatterns": ["*"],
+        "groupName": "DockerNPM"
+      }
+    ]
   }
 }
