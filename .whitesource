@@ -14,13 +14,8 @@
   },
   "remediateSettings": {
     "enableRenovate": true,
-    {
-    "packageRules": [
-      {
-        "matchDatasources": ["npm", "docker"],
-        "matchPackagePatterns": ["*"],
-        "groupName": "DockerNPM"
-      }
-    ]
-  }
+    "dependencyDashboard": true,
+    "dependencyDashboardApproval": true  
+    "dependencyDashboardTitle":"renovate dashboard"
+    }
 }
